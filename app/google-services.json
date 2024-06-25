@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "106260350020",
+    "project_id": "my-cricket-bat",
+    "storage_bucket": "my-cricket-bat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106260350020:android:bfbe1264507701b096e811",
+        "android_client_info": {
+          "package_name": "com.mzain.projecttwo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSF0U4E_gzrTa4U-p861d-51LoBsVZWFQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

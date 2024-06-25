@@ -1,0 +1,26 @@
+package com.mzain.projecttwo.adapters
+
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentManager
+import androidx.lifecycle.Lifecycle
+import androidx.viewpager2.adapter.FragmentStateAdapter
+import com.mzain.projecttwo.fragments.Login
+import com.mzain.projecttwo.fragments.Signup
+
+class fragmentadapter(
+    fragmentManager: FragmentManager,
+    lifecycle: Lifecycle
+) : FragmentStateAdapter(fragmentManager, lifecycle) {
+    override fun getItemCount(): Int {
+
+        return 2
+    }
+
+    override fun createFragment(position: Int): Fragment {
+        return if (position == 0)
+            Signup()
+        else
+            Login()
+    }
+    //after wrting conditions of this if else then type alt ctrl l
+}

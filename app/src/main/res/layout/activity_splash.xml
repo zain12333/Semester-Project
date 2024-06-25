@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/green"
+    android:gravity="center_vertical"
+    tools:context=".Splash">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal"
+    tools:ignore="UseCompoundDrawables,UselessParent">
+
+    <ImageView
+        android:layout_width="290dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="2dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/ty" />
+<!--        android:rotation="17"-->
+<!--        android:rotationX="-9"-->
+<!--        android:rotationY="-13"-->
+
+
+
+</LinearLayout>
+
+</LinearLayout>

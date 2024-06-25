@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/baseline_search_214"
+        android:title="@string/search_2"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom|withText"/>
+
+
+</menu>

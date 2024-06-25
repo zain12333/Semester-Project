@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">ProjectTwo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment"> profile Fragment</string>
+    <string name="tracky">Tracky</string>
+    <string name="shipping_and_track_anytime">Shopping with ZA Center </string>
+    <string name="get_great_experience_with_tracky">Get Great Experience with ZA Center</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="a_12">.</string>
+    <string name="a_13">.</string>
+    <string name="a_14">.</string>
+    <string name="a_2">Submit</string>
+    <string name="a_15">.</string>
+    <string name="z_2">Resend</string>
+    <string name="r_1">Register Successfully</string>
+    <string name="r_3">Congratulation your account already created</string>
+    <string name="r_4">Go Homepage</string>
+    <string name="create_account">Create Account</string>
+    <string name="or_sign_up_with">Or Sign Up With</string>
+    <string name="otpview">Verification Code</string>
+    <string name="tv_distance">5.3km</string>
+    <string name="poor">.</string>
+
+    <string name="z_1">Dont Receiver the Code?</string>
+    <string name="tv_recomed">Recomended for you</string>
+    <string name="tv_recomed1">MRF BATS</string>
+    <string name="tv_card_title">MRF BATS</string>
+    <string name="tv_card_title22">New Balance</string>
+    <string name="tv_card_title00">G N 1.2</string>
+    <string name="tv_card_title01">G N 1.4</string>
+    <string name="tv_card_title03">G N 1.7</string>
+
+    <string name="tv_card_title8">NEW KB Bats </string>
+    <string name="tv_card_title6">CF BATS</string>
+    <string name="tv_card_title5">New Balance</string>
+    <string name="tv_card_title11">N B 3.2</string>
+    <string name="tv_card_title12">N B 3.6</string>
+    <string name="tv_card_title13">N B 3.7</string>
+    <string name="tv_card_title4">As Bats</string>
+    <string name="tv_card_title3">Kookaburra</string>
+    <string name="tv_card_title2">AS BATS</string>
+    <string name="tv_card_title1">Gray Nichols</string>
+    <string name="tv_time">2–4Hours</string>
+    <string name="tv_card1_title5">CA Bats</string>
+    <string name="tv_card_title14">CA B 3.2</string>
+    <string name="tv_card_title15">CA B 3.6</string>
+    <string name="tv_card_title16">CA B 3.7</string>
+
+
+    <string name="tv_see_all">See all</string>
+    <string name="tv_deal_around">Deals with you</string>
+    <string name="tv_recommed">See All</string>
+    <string name="tv_top_rate">Top rate by other  Bats</string>
+    <string name="otpview1">we have send the code verification to</string>
+    <string name="otpview2">Your number is +6243212345</string>
+    <string name="sign_up_with_google">Sign Up With Google</string>
+    <string name="login_fragment">login fragment</string>
+    <string name="ac">.</string>
+    <string name="Snack">Special Deal</string>
+    <string name="deal">Deal</string>
+    <string name="tv_rating">4.3</string>
+    <string name="Za_a">..</string>
+    <string name="delivery_history_payment_details_discounts_amount">24,00</string>
+    <string name="tv_rating1">5.9</string>
+    <string name="tv_rating2">6.3</string>
+    <string name="tv_rating3">3.3</string>
+    <string name="Panjtan_Barat">Category</string>
+    <string name="tv_promo">Discount</string>
+    <string name="tv_promo9">Gray Nicholls</string>
+    <string name="Speacilday">#Speacilday</string>
+    <string name="tv_save_15">30%</string>
+    <string name="tv_price">Rs3000-</string>
+    <string name="tv1_price">Rs2400-</string>
+    <string name="tv_price7">Rs8000-</string>
+    <string name="tv_price3">Rs3000-</string>
+    <string name="tv_price4">Rs7390-</string>
+    <string name="tv_price2">Rs2000-</string>
+    <string name="tv_price1">Rs10000-</string>
+    <string name="sign_in_as_guest">Sign In as Guest</string>
+    <string name="cash_on_delivery_or_e_payment">Cash On Delivery or E-payment</string>
+    <string name="desc1">Our delivery will ensure your items are delivered right to the door steps</string>
+    <string name="frag2title">Delivery Right to your Door Step</string>
+    <string name="frag3title">Welcome to ZA Center</string>
+    <string name="ZA_Center">ZA Center</string>
+    <string name="enter_your_number">Enter your Number</string>
+    <string name="enter_your_password">Enter your Password</string>
+    <string name="sign_up_with_apple">Sign Up with Apple</string>
+    <string name="enter_your_fulll_name">Enter your Fulll Name</string>
+    <string name="alert_dialog">alert dialog</string>
+    <string name="alert_desc">"are you sure?"</string>
+
+    <string name="navdrawer">My Profile</string>
+    <string name="mr_m_uzair_rafiq">Mr. M Uzair Rafiq</string>
+    <string name="senior_branch_manager">Senior Branch Manager</string>
+    <string name="item1">My Profile</string>
+    <string name="item2">Home</string>
+    <string name="item3">About Us</string>
+    <string name="search">Search</string>
+    <string name="start_shopping_your_favourite_bats">Start shopping your favourite BATS</string>
+    <string name="search_2">Search</string>
+    <string name="pizza_mashroum_sauce">Bats Choose</string>
+    <string name="topping">CHOOSE</string>
+    <string name="order_quantity">1</string>
+    <string name="delivery_history_detail_txt">Delivery Detail</string>
+    <string name="delivery_history_location_label">okara</string>
+    <string name="delivery_history_title">Delivery History</string>
+    <string name="order">Order</string>
+    <string name="delivery_history_bottom_button">Create Bill</string>
+    <string name="delivery_history_payment_method">Paid with Link PayPal</string>
+    <string name="delivery_history_payment_details_title">Payment details</string>
+    <string name="delivery_history_payment_details_price">Price</string>
+    <string name="delivery_history_payment_details_price_amount">30.000</string>
+    <string name="delivery_history_payment_details_delivery_fee">Delivery fee</string>
+    <string name="delivery_history_payment_details_delivery_fee_amount">1000.0</string>
+    <string name="delivery_history_payment_details_discounts">Discount</string>
+    <string name="delivery_history_payment_details_discounts_amount2">-2000.0</string>
+    <string name="delivery_history_payment_details_packaging_fee">Packaging Fee</string>
+    <string name="delivery_history_payment_details_packaging_fee_amount">2000</string>
+    <string name="delivery_history_payment_details_total_payment">Total payment</string>
+    <string name="delivery_history_payment_details_total_payment_amount">32000.0</string>
+    <string name="delivery_history_order_title">Order detail</string>
+    <string name="delivery_history_order_item_1">MRF</string>
+    <string name="delivery_history_order_item_1_quantity">1</string>
+    <string name="delivery_history_order_item_2">New Balance</string>
+    <string name="delivery_history_order_item_2_quantity">1</string>
+    <string name="delivery_history_target_label">Discover Location</string>
+    <string name="delivery_history_target_location">J.M Road sahiwal</string>
+    <string name="delivery_history_code">Vision 2</string>
+    <string name="delivery_history_date">05/10/22</string>
+    <color name="color_primary">#5D73ED</color>
+    <string name="delivery_history_location">M.A Jinnah Road Okara</string>
+    <color name="color_black">#000000</color>
+    <string name="item_quantity">Item quantity</string>
+    <string name="no_results">No Results</string>
+    <string name="meat">MRF</string>
+    <string name="meat1">New Balance</string>
+    <string name="meat2">KB</string>
+    <string name="meat3">CA</string>
+    <string name="meat4">GN</string>
+    <string name="rp2_000">2000</string>
+    <string name="rp2_001">4000</string>
+    <string name="tv_did_you_mean">Did you mean</string>
+    <string name="tv_matching_restro">Metching Result</string>
+    <string name="tv_search_history">Your search history</string>
+    <string name="tv_popular_search">Popular Searches</string>
+    <string name="the_customer_is_very_important_the_customer_will_be_followed_by_the_steps">The customer is very important, the customer will be followed by the Steps</string>
+    <string name="please_click_image">Please Click Image</string>
+    <string name="m_a_jinnah_road">M.A jinnah Road</string>
+    <string name="delivery_in_20_min">Delivery in 20 min</string>
+    <string name="shop">Shop</string>
+    <string name="edit">Edit</string>
+    <string-array name="cricket_bat_brands_array">
+        <item>Adidas</item>
+        <item>ASICS</item>
+        <item>CA</item>
+        <item>Chase</item>
+        <item>DSC</item>
+        <item>Gunn Moore</item>
+        <item>Gray-Nicolas</item>
+        <item>Kookaburra</item>
+        <item>Mongoose</item>
+        <item>New Balance</item>
+        <item>Puma</item>
+        <item>Reebok</item>
+        <item>Sanspareils Greenlands (SG)</item>
+        <item>Slazenger</item>
+        <item>Spartan</item>
+        <item>SS (Sareen Sports Industries)</item>
+        <item>TON</item>
+        <item>MRF</item>
+        <item>SS Ton</item>
+        <item>Woodworm</item>
+    </string-array>
+</resources>

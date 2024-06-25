@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ProjectTwo" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/blue</item>
+    </style>
+
+    <style name="Theme.ProjectTwo" parent="Base.Theme.ProjectTwo" />
+    <style name="PaymentHostActivity" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:buttonStyle">@style/DefaultButtonStyle</item>
+        <item name="colorPrimary">@color/PrimaryAppColor</item>
+        <item name="colorPrimaryDark">@color/blue</item>
+        <item name="colorAccent">@color/blue</item>
+    </style>
+
+    <style name="DefaultButtonStyle" parent="Widget.AppCompat.Button">
+        <!-- Set the default background tint for buttons -->
+        <item name="android:backgroundTint">@color/PrimaryAppColor</item>
+        <!-- Add more button-related attributes as needed -->
+        <item name="android:windowClipToOutline">@color/blue</item>
+
+    </style>
+    <style name="CustomToolbarTextStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Login">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phone_number"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/et_Email"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_border"
+            android:layout_height="55dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="40dp"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:hint="email"
+            android:drawableStart="@drawable/phone" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/password"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/et_ViaPassword"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_border"
+            android:layout_height="55dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="40dp"
+            android:padding="10dp"
+            android:hint="@string/enter_your_password"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/lock"
+            />
+        <Button
+            android:id="@+id/btnLoginup"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="40dp"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_shape"
+            android:text="@string/create_account"
+            android:layout_marginTop="40dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/or_sign_up_with"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="40dp"
+            android:textSize="15sp"
+            android:paddingStart="30dp"
+            android:drawablePadding="-40dp"
+
+            android:background="@drawable/btn_signup_with_google"
+            android:textColor="@color/black"
+            android:drawableStart="@drawable/googlelogo"
+            android:text="@string/sign_up_with_google"
+            android:layout_marginTop="10dp"
+            tools:ignore="RtlSymmetry" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="40dp"
+            android:textSize="15sp"
+            android:background="@drawable/btn_apple_cstm"
+            android:textColor="@color/white"
+            android:paddingStart="30dp"
+           android:drawablePadding="-40dp"
+            android:text="@string/sign_up_with_apple"
+            android:drawableStart="@drawable/appleiconn"
+            android:layout_marginTop="20dp"
+            tools:ignore="RtlSymmetry" />
+    </LinearLayout>
+
+</FrameLayout>

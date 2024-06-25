@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".AppEntry">
+    <TextView
+        android:layout_marginTop="0dp"
+        android:textSize="35sp"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:paddingBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/ZA_Center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/shipping_and_track_anytime"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp"
+        android:textSize="20sp"
+        />
+    <!--        android:letterSpacing="0.1"-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/get_great_experience_with_tracky"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/grey"
+        android:textSize="16sp"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/tab_cstm_btn"
+        android:contentDescription="@string/ac"
+        app:tabIndicator="@drawable/tab_indicator"
+        app:tabIndicatorAnimationMode="elastic"
+        app:tabIndicatorColor="@null"
+        app:tabIndicatorFullWidth="true"
+        app:tabIndicatorGravity="stretch"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/grey" />
+<androidx.viewpager2.widget.ViewPager2
+    android:id="@+id/viewpager2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
+
+</LinearLayout>
